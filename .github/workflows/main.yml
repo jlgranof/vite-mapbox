@@ -16,4 +16,4 @@ jobs:
     environment: production
     
     steps:
-      - run: echo "This is a test run for GitHub Actions for ${{ github.repository }}."
+      - run: echo "This is a test run for GitHub Actions for ${{ github.repository }}. Hopefully this test finally works."
